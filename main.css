@@ -1,0 +1,24 @@
+
+.mydiv {
+ width: 100vw;
+    height: 100vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 35;
+ 
+
+ background: linear-gradient(90deg, #3591f2 ,#eba102 ,#f10271  ,
+ #76f111);
+    
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+}
+
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%}
+}
+    
+    
