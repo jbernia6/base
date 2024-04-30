@@ -1,19 +1,10 @@
 
 .mydiv {
- width: 100vw;
-    height: 100vh;
- display: flex;
- background: linear-gradient(90deg, blue  ,
- white);
-    
-    background-size: 400% 300%;
-    animation: BgGradient 8s ease infinite;
-}
 
-@keyframes BgGradient {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%}
+    animation: efecto 10s easy
+
+@keyframes efecto {
+   
 }
     
     
